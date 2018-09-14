@@ -27,7 +27,7 @@ class AssetInstanceController extends EntityAPIController {
       'is_new'    => TRUE,
       'type'      => $values['asset']->type,
       'asset_id' => $values['asset']->id,
-      'data'      => '',
+      'data'      => array(),
     );
     // Clean up.
     unset($values['asset']);

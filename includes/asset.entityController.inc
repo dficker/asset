@@ -32,7 +32,7 @@ class AssetController extends EntityAPIController {
       'changed'     => '',
       'instance_id' => NULL,
       'status'      => 1,
-      'data'        => '',
+      'data'        => array(),
     );
 
     $asset = parent::create($values);
